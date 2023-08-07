@@ -1,0 +1,18 @@
+[0.710s] Invoking command in '/home/gabe/experimentalros2_ws/build/Dummy_Camera': PYTHONPATH=/home/gabe/experimentalros2_ws/build/Dummy_Camera/prefix_override:/home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gabe/experimentalros2_ws/build/Dummy_Camera/build --no-deps install_data
+[0.932s] running develop
+[1.059s] running egg_info
+[1.059s] writing Dummy_Camera.egg-info/PKG-INFO
+[1.059s] writing dependency_links to Dummy_Camera.egg-info/dependency_links.txt
+[1.060s] writing entry points to Dummy_Camera.egg-info/entry_points.txt
+[1.060s] writing requirements to Dummy_Camera.egg-info/requires.txt
+[1.060s] writing top-level names to Dummy_Camera.egg-info/top_level.txt
+[1.089s] reading manifest file 'Dummy_Camera.egg-info/SOURCES.txt'
+[1.090s] writing manifest file 'Dummy_Camera.egg-info/SOURCES.txt'
+[1.136s] running build_ext
+[1.137s] Creating /home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/python3.8/site-packages/site.py
+[1.140s] Creating /home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/python3.8/site-packages/Dummy-Camera.egg-link (link to .)
+[1.147s] Installing Dummy_Camera script to /home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/Dummy_Camera
+[1.148s] 
+[1.148s] Installed /home/gabe/experimentalros2_ws/build/Dummy_Camera
+[1.148s] running install_data
+[1.197s] Invoked command in '/home/gabe/experimentalros2_ws/build/Dummy_Camera' returned '0': PYTHONPATH=/home/gabe/experimentalros2_ws/build/Dummy_Camera/prefix_override:/home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gabe/experimentalros2_ws/build/Dummy_Camera/build --no-deps install_data

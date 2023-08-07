@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing Dummy_Camera.egg-info/PKG-INFO
+writing dependency_links to Dummy_Camera.egg-info/dependency_links.txt
+writing entry points to Dummy_Camera.egg-info/entry_points.txt
+writing requirements to Dummy_Camera.egg-info/requires.txt
+writing top-level names to Dummy_Camera.egg-info/top_level.txt
+reading manifest file 'Dummy_Camera.egg-info/SOURCES.txt'
+writing manifest file 'Dummy_Camera.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/python3.8/site-packages/site.py
+Creating /home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/python3.8/site-packages/Dummy-Camera.egg-link (link to .)
+Installing Dummy_Camera script to /home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/Dummy_Camera
+
+Installed /home/gabe/experimentalros2_ws/build/Dummy_Camera
+running install_data

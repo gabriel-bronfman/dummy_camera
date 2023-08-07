@@ -1,0 +1,24 @@
+[0.658s] Invoking command in '/home/gabe/experimentalros2_ws/src/Dummy_Camera': PYTHONPATH=/home/gabe/experimentalros2_ws/build/Dummy_Camera/prefix_override:/home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Dummy_Camera build --build-base /home/gabe/experimentalros2_ws/build/Dummy_Camera/build install --record /home/gabe/experimentalros2_ws/build/Dummy_Camera/install.log --install-scripts $base/lib/Dummy_Camera --single-version-externally-managed
+[0.877s] running egg_info
+[0.878s] writing ../../build/Dummy_Camera/Dummy_Camera.egg-info/PKG-INFO
+[0.878s] writing dependency_links to ../../build/Dummy_Camera/Dummy_Camera.egg-info/dependency_links.txt
+[0.879s] writing entry points to ../../build/Dummy_Camera/Dummy_Camera.egg-info/entry_points.txt
+[0.879s] writing requirements to ../../build/Dummy_Camera/Dummy_Camera.egg-info/requires.txt
+[0.879s] writing top-level names to ../../build/Dummy_Camera/Dummy_Camera.egg-info/top_level.txt
+[0.910s] reading manifest file '../../build/Dummy_Camera/Dummy_Camera.egg-info/SOURCES.txt'
+[0.911s] writing manifest file '../../build/Dummy_Camera/Dummy_Camera.egg-info/SOURCES.txt'
+[0.911s] running build
+[0.912s] running build_py
+[0.912s] copying Dummy_Camera/Dummy_Camera.py -> /home/gabe/experimentalros2_ws/build/Dummy_Camera/build/lib/Dummy_Camera
+[0.912s] running install
+[0.913s] running install_lib
+[0.913s] copying /home/gabe/experimentalros2_ws/build/Dummy_Camera/build/lib/Dummy_Camera/Dummy_Camera.py -> /home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/python3.8/site-packages/Dummy_Camera
+[0.914s] byte-compiling /home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/python3.8/site-packages/Dummy_Camera/Dummy_Camera.py to Dummy_Camera.cpython-38.pyc
+[0.914s] running install_data
+[0.915s] running install_egg_info
+[0.919s] removing '/home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/python3.8/site-packages/Dummy_Camera-0.0.0-py3.8.egg-info' (and everything under it)
+[0.920s] Copying ../../build/Dummy_Camera/Dummy_Camera.egg-info to /home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/python3.8/site-packages/Dummy_Camera-0.0.0-py3.8.egg-info
+[0.929s] running install_scripts
+[0.945s] Installing Dummy_Camera script to /home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/Dummy_Camera
+[0.946s] writing list of installed files to '/home/gabe/experimentalros2_ws/build/Dummy_Camera/install.log'
+[0.985s] Invoked command in '/home/gabe/experimentalros2_ws/src/Dummy_Camera' returned '0': PYTHONPATH=/home/gabe/experimentalros2_ws/build/Dummy_Camera/prefix_override:/home/gabe/experimentalros2_ws/install/Dummy_Camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Dummy_Camera build --build-base /home/gabe/experimentalros2_ws/build/Dummy_Camera/build install --record /home/gabe/experimentalros2_ws/build/Dummy_Camera/install.log --install-scripts $base/lib/Dummy_Camera --single-version-externally-managed
