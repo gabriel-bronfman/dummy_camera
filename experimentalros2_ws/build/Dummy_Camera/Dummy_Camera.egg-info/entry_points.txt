@@ -1,4 +1,0 @@
-[console_scripts]
-Dummy_Camera = Dummy_Camera.Dummy_Camera:main
-camera_viewer = Dummy_Camera.camera_viewer:main
-
