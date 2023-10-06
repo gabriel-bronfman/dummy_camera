@@ -1,1 +1,0 @@
-/home/gabe/experimentalros2_ws/src/Dummy_Camera/setup.py
