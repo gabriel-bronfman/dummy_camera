@@ -7,10 +7,10 @@ import cv2 as cv
 from cv_bridge import CvBridge
 
 
-class dummy_camera(Node):
+class dummy_camera_node(Node):
 
     def __init__(self):
-        super().__init__('dummy_camera')
+        super().__init__('dummy_camera_node')
         
         #CV bridge used for converting CV::Mats to sensor_msg/Image
         self.br = CvBridge()

@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'Dummy_Camera'
+package_name = 'dummy_camera_pkg'
 
 setup(
     name=package_name,
@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'Dummy_Camera = Dummy_Camera.Dummy_Camera:main',
-            'camera_viewer = Dummy_Camera.camera_viewer:main'
+            'dummy_camera = src.dummy_camera_node:main',
+            'camera_viewer = src.camera_viewer:main'
         ],
     },
 )
