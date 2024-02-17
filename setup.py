@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'dummy_camera = src.dummy_camera_node:main',
-            'camera_viewer = src.camera_viewer:main'
+            'dummy_camera = dummy_camera_pkg.dummy_camera_node:main',
+            'camera_viewer = dummy_camera_pkg.camera_viewer:main'
         ],
     },
 )
