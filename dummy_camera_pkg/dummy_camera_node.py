@@ -7,21 +7,20 @@ import cv2 as cv
 from cv_bridge import CvBridge
 
 
-class dummy_camera_node(Node):
+class dummy_camera(Node):
 
     def __init__(self):
-        super().__init__('dummy_camera_node')
+        super().__init__('dummy_camera')
         
         #CV bridge used for converting CV::Mats to sensor_msg/Image
         self.br = CvBridge()
 
         # Create parameter that can be specified at Runtime
-        self.declare_parameter('file_name', 'ROS.png')
+        self.declare_parameter('file_name', 'ros2.jpg')
         self.declare_parameter('mode', 'image')
 
         # Create path to video and video object
-        video_name = self.get_parameter('file_name').get_parameter_value().string_value
-        self.video_path = os.path.join('/home/gabe/experimentalros2_ws/videos', video_name)
+        self.video_path = self.get_parameter('file_name').get_parameter_value().string_value
         if (self.get_parameter('mode').get_parameter_value().string_value == 'video'):
             self.data = cv.CaptureVideo(self.video_path)
         else:
