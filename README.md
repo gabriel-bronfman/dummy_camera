@@ -16,5 +16,5 @@ sh ./install/local_setup.bash
 
 ## Run
 ```
-ros2 run dummy_camera_pkg dummy_camera_node camera_viewer
+ros2 run dummy_camera_pkg dummy_camera camera_viewer
 ```
